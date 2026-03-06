@@ -1,13 +1,13 @@
-# Running MixFlow
+# Running SP-FM
 
-[Home](index.md) | [Installation](installation.md) | [Running MixFlow](running.md)
+[Home](index.md) | [Installation](installation.md) | [Running SP-FM](running.md)
 
 ---
 
 
-This page shows a minimal example of how we currently run MixFlow on the **Norman** CRISPR screen dataset.
+This page shows a minimal example of how we currently run SP-FM on the **Norman** CRISPR screen dataset.
 
-Before running, make sure you have completed the steps in the [Installation](installation.md) page.
+> Before running, make sure you have completed the steps in the [Installation](installation.md) page.
 
 ## Norman dataset example
 

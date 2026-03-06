@@ -1,16 +1,16 @@
 # Installation
 
-[Home](index.md) | [Installation](installation.md) | [Running MixFlow](running.md)
+[Home](index.md) | [Installation](installation.md) | [Running SP-FM](running.md)
 
 ---
 
-MixFlow is currently in active development and not available as a python library. It can, however, be used through the scripts available in the github repository.
+SP-FM is currently in active development and not available as a python library. It can, however, be used through the scripts available in the github repository.
 
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/Lotfollahi-lab/MixFlow.git
-cd MixFlow
+git clone https://github.com/Lotfollahi-lab/SP-FM.git
+cd SP-FM
 ```
 
 ## 2. Create and activate an environment (optional but recommended)
@@ -18,13 +18,13 @@ cd MixFlow
 For example, using `conda`:
 
 ```bash
-conda create -n MixFlow python=3.10 -y
-conda activate MixFlow
+conda create -n SP-FM python=3.10 -y
+conda activate SP-FM
 ```
 
 You can also use `venv` or another environment manager if you prefer.
 
-## 3. Install MixFlow in editable mode
+## 3. Install SP-FM in editable mode
 
 From the repository root:
 
@@ -32,7 +32,7 @@ From the repository root:
 pip install -e .
 ```
 
-This installs MixFlow and its Python dependencies while keeping the source editable for development.
+This installs SP-FM and its Python dependencies while keeping the source editable for development.
 
 ## 4. Install Exact Environment
 
@@ -43,4 +43,4 @@ pip install -r requirements.txt
 ```
 ---
 
-Once installed, you can follow the instructions in the [Running MixFlow](running.md) page for an example training run on the Norman dataset.
+Once installed, you can follow the instructions in the [Running SP-FM](running.md) page for an example training run on the Norman dataset.
