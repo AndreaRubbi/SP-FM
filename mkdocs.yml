@@ -14,11 +14,13 @@ nav:
   - Home: index.md
   - Installation: installation.md
   - Running: running.md
+  - Interactive Visualization: interactive_visualization.md
 
 plugins:
   - search
 
 markdown_extensions:
   - admonition
+  - md_in_html
   - toc:
       permalink: true
